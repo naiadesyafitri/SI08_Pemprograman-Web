@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Barang</title>
+</head>
+<body>
+    <form action="hasil-form-pemesanan-barang.html">
+        <table cellpadding="3" cellspacing="0" width="1200" align="center" style="border-style:solid">
+            <thead>
+                <tr>
+                    <th colspan="2">Home | </th>
+                    <th>Generate Link | </th>
+                    <th>Transaction History | </th>
+                    <th>Policy | </th>
+                    <th>Logout | </th>
+                </tr>
+            </thead>
+        </table>
+    <br>
+        <table>
+            <thead>
+                <tr><img src="Baju segitiga (1).jpg" width="150" height="150"></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border-style:outset">Upload Picture</td>
+                </tr>
+            </tbody>
+        </table>
+    <br>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="title">Title Here</label></td>
+                    <td>: <input type="text" id="title"></td>
+                </tr>
+                <tr>
+                    <td><label for="description">Description</label></td>
+                    <td>:<textarea type="text" id="description"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="account">Account Number</label></td>
+                    <td>: <input type="number" id="account"></td>
+                </tr>
+                <tr>
+                    <td><label>Bank</label></td>
+                    <td>:
+                        <select name="bank">
+                            <option>--silakan pilih--</option>
+                            <option value="bca">BCA</option>
+                            <option value="hsbc">HSBC</option>
+                            <option value="btn">BTN</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="account">Account Holder</label></td>
+                    <td>: <input type="text" id="account"></td>
+                </tr>
+                <tr>
+                    <td><label for="transaction">Transaction</label></td>
+                    <td>: <input type="number" id="transaction"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">*If the transaction is for 3 person, choose 3 from the drop-down list</td>
+                </tr>
+                
+                <tr>
+                    <td></td>
+                    <td align="left">
+                        <ul style="list-style-type:none">
+                            <li>
+                                <input type="checkbox" id="phone">
+                                <label for="phone">Send to Mobile Phone</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="email">
+                                <label for="email">Send to Email</label>
+                            </li>
+                        </ul>
+                    </td>
+                    <tr>
+                        <td><label for="phone">Send to Mobile Phone</label></td>
+                        <td>: <input type="number" id="phone"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Send to Email</label></td>
+                        <td>: <input type="email" id="email"></td>
+                    </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <button type="generate">Generate Nabr Link</button>
+    </form>
+<body BGCOLOR="#FFEBCD"></body>
+</body>
+</html>
