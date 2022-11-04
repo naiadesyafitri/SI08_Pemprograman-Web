@@ -1,0 +1,56 @@
+body {
+    background-color:antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    color:blue;
+    text-align: center;
+}
+blockquote {
+    background-color:orange;
+    text-align: center;
+    padding:5px;
+}
+.link {
+    text-align: center;
+    list-style-type: none;
+}
+img {
+    width:20%;
+}
+.gambar {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.isi {
+    text-align:justify;
+}
+.center {
+    display: block;
+    margin: auto;
+}
+.burung::first-letter {
+    font-size: 500%;
+    color: blue;
+}
+p {
+    line-height: 100%;
+}
+.koleksi {
+    text-align: center;
+}
+.promo {
+    text-align: center;
+    background-color:lawngreen;
+    border:2px solid black;
+    font-weight: bold;
+    color:red;
+    width: max-content;
+    margin: 5px auto;
+    padding: 10px;
+}
+.aplikasi {
+    list-style-type: none;
+    font-weight: bold;
+}
